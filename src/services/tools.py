@@ -2,7 +2,7 @@ import json
 
 from openai.types.responses import FunctionToolParam
 
-from src.services.database import get_order
+from src.services.orders import get_order
 
 TOOLS: list[FunctionToolParam] = [
     {

@@ -9,3 +9,4 @@ wheels/
 # Virtual environments
 .venv
 .env
+customer_service_agent_database.db
