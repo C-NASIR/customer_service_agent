@@ -9,7 +9,8 @@ def db_init():
         db.execute("""
             CREATE TABLE IF NOT EXISTS conversations (
                 id TEXT PRIMARY KEY, 
-                history TEXT NOT NULL
+                history TEXT NOT NULL,
+                context TEXT NOT NULL
             )
         """)
 
